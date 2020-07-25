@@ -1,6 +1,6 @@
 function getTopTenCustomers(param){
     let xhr = new XMLHttpRequest();
-    xhr.open('GET', 'http://localhost/kobisi_example/api/topTenCustomers.php?param='+param);
+    xhr.open('GET', 'https://kobisi-example.herokuapp.com/api/topTenCustomers.php?param='+param);
     xhr.responseType = 'json';
     xhr.send();
 
@@ -21,7 +21,7 @@ function getTopTenCustomers(param){
 
 function getBestSellingProducts(){
     let xhr = new XMLHttpRequest();
-    xhr.open('GET', 'http://localhost/kobisi_example/api/bestSellingProducts.php');
+    xhr.open('GET', 'https://kobisi-example.herokuapp.com/api/bestSellingProducts.php');
     xhr.responseType = 'json';
     xhr.send();
 
@@ -42,7 +42,7 @@ function getBestSellingProducts(){
 
 function getProductCount(){
     let xhr = new XMLHttpRequest();
-    xhr.open('GET', 'http://localhost/kobisi_example/api/productCount.php');
+    xhr.open('GET', 'https://kobisi-example.herokuapp.com/api/productCount.php');
     xhr.responseType = 'json';
     xhr.send();
 
@@ -63,7 +63,7 @@ function getProductCount(){
 
 function getTodaysSaleCount(){
     let xhr = new XMLHttpRequest();
-    xhr.open('GET', 'http://localhost/kobisi_example/api/todaysSaleCount.php');
+    xhr.open('GET', 'https://kobisi-example.herokuapp.com/api/todaysSaleCount.php');
     xhr.responseType = 'json';
     xhr.send();
 
