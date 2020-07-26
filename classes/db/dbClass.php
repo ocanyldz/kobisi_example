@@ -1,10 +1,10 @@
 <?php
 class DBClass {
 
-    private $host = "localhost";
-    private $username = "root";
-    private $password = "";
-    private $database = "test";
+    private $host = "eu-cdbr-west-03.cleardb.net";
+    private $username = "bce900106d9e20";
+    private $password = "18e812ab";
+    private $database = "heroku_b4e61e7b9943e64";
 
     public $connection;
 
